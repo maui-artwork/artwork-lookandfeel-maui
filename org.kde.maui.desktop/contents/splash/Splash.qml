@@ -42,14 +42,14 @@ Image {
         width: parent.width
         height: units.gridUnit * 14
         anchors.centerIn: parent
-        color: "#4C000000"
+        color: "#00000000"
         Column {
             id: content
             y: units.gridUnit
             x: parent.width
             Image {
                 anchors.horizontalCenter: parent.horizontalCenter
-//                 source: "images/kde.svgz"
+                source: "images/logo.png"
                 sourceSize.height: units.gridUnit * 8
                 sourceSize.width: units.gridUnit * 8
             }
@@ -81,14 +81,14 @@ Image {
                 }
             }
         }
-        Rectangle {
-            id: separator
-            height: 1
-            color: "#fdfdfd"
-            width: parent.width
-            opacity: 0.4
-            y: parent.height - units.gridUnit * 4
-        }
+//         Rectangle {
+//             id: separator
+//             height: 1
+//             color: "#fdfdfd"
+//             width: parent.width
+//             opacity: 0.4
+//             y: parent.height - units.gridUnit * 4
+//         }
     }
 
     XAnimator {
