@@ -2,19 +2,19 @@
 widgetStyle=breeze
 
 [kdeglobals][General]
-ColorScheme=Breeze
+ColorScheme=maui
 
 [kdeglobals][Icons]
-Theme=breeze
+Theme=elementary
 
 [plasmarc][Theme]
-name=default
+name=maui
 
 [kcminputrc][Mouse]
 cursorTheme=breeze_cursors
 
 [kwinrc][WindowSwitcher]
-LayoutName=org.kde.breeze.desktop
+LayoutName=org.kde.maui.desktop
 
 [kwinrc][DesktopSwitcher]
-LayoutName=org.kde.breeze.desktop
+LayoutName=org.kde.maui.desktop
