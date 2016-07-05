@@ -2,10 +2,10 @@
 widgetStyle=breeze
 
 [kdeglobals][General]
-ColorScheme=maui
+ColorScheme=Maui
 
 [kdeglobals][Icons]
-Theme=elementary
+Theme=breeze
 
 [plasmarc][Theme]
 name=maui
