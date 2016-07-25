@@ -1,11 +1,11 @@
-Source: maui-artwork-lookandfeel
+Source: artwork-lookandfeel-maui
 Section: admin
 Priority: optional
 Maintainer: Leszek Lesner <leszek@zevenos.com>
 Build-Depends: debhelper (>= 9)
 Standards-Version: 3.7.2
 
-Package: maui-artwork-lookandfeel
+Package: artwork-lookandfeel-maui
 Architecture: all
 Replaces: netrunner-artwork (<< 1.1.49)
 Breaks: netrunner-artwork (<< 1.1.49)
