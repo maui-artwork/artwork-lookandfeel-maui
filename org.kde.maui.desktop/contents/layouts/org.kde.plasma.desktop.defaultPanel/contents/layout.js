@@ -63,7 +63,7 @@ var systrayContainment = desktopById(systrayContainmentId)
 systrayContainment.currentConfigGroup = ["General"]
 systrayContainment.writeConfig("extraItems","org.kde.plasma.devicenotifier,org.kde.plasma.battery,org.kde.plasma.networkmanagement,org.kde.plasma.clipboard,org.kde.plasma.printmanager,org.kde.ktp-contactlist,org.kde.plasma.ktplegacypresenceapplet,org.kde.plasma.notifications")
 systrayContainment.writeConfig("hiddenItems","KMix,org.kde.ktp-contactlist,org.kde.plasma.ktplegacypresenceapplet,org.kde.plasma.volume,org.kde.plasma.notifications,org.kde.plasma.clipboard")
-systrayContainment.writeConfig("knownItems","org.kde.discovernotifier,org.kde.plasma.volume")
+systrayContainment.writeConfig("knownItems","org.kde.discovernotifier,org.kde.plasma.volume,org.kde.plasma.notifications")
 systrayContainment.writeConfig("shownItems", "transmission")
 
 panel.addWidget("org.kde.plasma.digitalclock")
