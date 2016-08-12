@@ -46,6 +46,6 @@ for (var j = 0; j < desktopsArray.length; j++) {
     desktopsArray[j].writeConfig("sortMode","-1");
 //         [Containments][18][Wallpaper][org.kde.image][General]
     desktopsArray[j].currentConfigGroup = new Array("Wallpaper", "org.kde.image", "General");
-    desktopsArray[j].writeConfig("Image", "file:///usr/share/wallpapers/blue-tang-poly.png");
+    desktopsArray[j].writeConfig("Image", "file:///usr/share/wallpapers/Aurora-Contact.png");
     desktopsArray[j].writeConfig("FillMode","2");
 } 
