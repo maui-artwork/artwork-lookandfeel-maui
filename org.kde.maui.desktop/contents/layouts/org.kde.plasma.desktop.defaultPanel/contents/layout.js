@@ -65,6 +65,7 @@ systrayContainment.writeConfig("extraItems","org.kde.plasma.devicenotifier,org.k
 systrayContainment.writeConfig("hiddenItems","KMix,org.kde.ktp-contactlist,org.kde.plasma.ktplegacypresenceapplet,org.kde.plasma.volume,org.kde.plasma.notifications,org.kde.plasma.clipboard")
 systrayContainment.writeConfig("knownItems","org.kde.discovernotifier,org.kde.plasma.volume,org.kde.plasma.notifications")
 systrayContainment.writeConfig("shownItems", "transmission")
+systrayContainment.writeConfig("iconSize", 2)
 
 panel.addWidget("org.kde.plasma.digitalclock")
 panel.addWidget("org.kde.plasma.notifications")
