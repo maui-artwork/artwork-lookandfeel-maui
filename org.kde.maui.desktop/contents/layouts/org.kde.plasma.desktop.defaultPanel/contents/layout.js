@@ -38,6 +38,7 @@ kicker.writeConfig("customButtonImage", "file:///usr/share/icons/hicolor/scalabl
 kicker.writeConfig("favoriteApps", ["systemsettings.desktop","synaptic.desktop","org.kde.ksysguard.desktop","vokoscreen.desktop"])
 kicker.writeConfig("limitDepth", true)
 kicker.writeConfig("useCustomButtonImage", true)
+kicker.writeConfig("alphaSort",true)
 
 var eitm = panel.addWidget("org.kde.plasma.icontasks")
 eitm.currentConfigGroup = ["Configuration", "General"]

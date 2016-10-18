@@ -6,5 +6,6 @@ applet.writeConfig("customButtonImage", "file:///usr/share/icons/hicolor/scalabl
 applet.writeConfig("favoriteApps", ["systemsettings.desktop","synaptic.desktop","org.kde.ksysguard.desktop"])
 applet.writeConfig("hiddenApplications", "org.kde.ksshaskpass.desktop")
 applet.writeConfig("useCustomButtonImage", true)
+applet.writeConfig("alphaSort",true)
 
 applet.reloadConfig();
