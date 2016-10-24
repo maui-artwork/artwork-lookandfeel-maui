@@ -27,9 +27,7 @@ rightButton.writeEntry("remove", "true");
 rightButton.writeEntry("run associated application", "false");
    
 delete rightButton;
-delete actionPluginsDesktop;
 delete actionPlugins;
-gc();
    
 var desktopsArray = desktopsForActivity(currentActivity());
  
