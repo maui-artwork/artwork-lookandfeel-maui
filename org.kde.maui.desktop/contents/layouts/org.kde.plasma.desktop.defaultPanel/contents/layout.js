@@ -40,7 +40,7 @@ kicker.writeConfig("limitDepth", true)
 kicker.writeConfig("useCustomButtonImage", true)
 kicker.writeConfig("alphaSort",true)
 
-var eitm = panel.addWidget("org.kde.plasma.icontasks")
+var eitm = panel.addWidget("org.kde.plasma.taskmanager")
 eitm.currentConfigGroup = ["Configuration", "General"]
 eitm.writeConfig("launchers" ,["file:///usr/share/applications/org.kde.dolphin.desktop","file:///usr/share/applications/firefox.desktop"])
 eitm.writeConfig("showOnlyCurrentDesktop", true)
